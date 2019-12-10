@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input id="kizz" type="text" placeholder="type in a text">
+        <button id="buton">change</button>
+    </form>
+    <div id="answer"></div>
+<script>
+    document.getElementById("kizz").addEventListener("keyup",change);
+    function change() {
+        var z=document.getElementById("kizz").value;
+        document.getElementById("answer").innerHTML=z;
+    }
+// var a= 1;
+// var b=2;
+// var c="boy";
+// var pi=3.142;
+// var radius=7;
+// var arc= pi*radius**2;
+// var name="emma";
+// var h=2;
+// alert(a>3);
+// alert("hello"+name);
+// alert (arc);
+// alert(a+c)
+// alert("Emik");
+</script>
+</body>
+</html>

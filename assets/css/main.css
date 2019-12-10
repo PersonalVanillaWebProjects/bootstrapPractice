@@ -1,0 +1,37 @@
+.height{
+    min-height:80vh;
+}
+.title-underline{
+    width:9rem;
+    height:10px;
+    margin:0 auto;
+}
+
+.height-80{
+    min-height:70vh;
+}
+.about-picture{
+    background: url(../image/codingpix.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-right{
+    background: rgba(60, 5, 240, 0.76);
+}
+#filler{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(../image/codingpix.jpg);
+}
+
+@media (max-width: 575.98px) {
+    .news-header{
+        max-height: 25vh;
+    }
+  }
+
+
+
+
+  
